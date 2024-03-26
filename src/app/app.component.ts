@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {todos} from "../mock/ToDoList";
 
 @Component({
   selector: 'app-root',
