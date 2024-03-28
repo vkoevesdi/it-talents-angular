@@ -10,6 +10,7 @@ import { LoginComponent } from './login/login.component';
 import { DatenschutzComponent } from './datenschutz/datenschutz.component';
 import { ImpressumComponent } from './impressum/impressum.component';
 import { ToDosComponent } from './to-dos/to-dos.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ToDosComponent } from './to-dos/to-dos.component';
     imports: [
         BrowserModule,
         AppRoutingModule,
-        FormsModule
+        FormsModule,
+        HttpClientModule
     ],
   providers: [],
   bootstrap: [AppComponent]
